@@ -1,0 +1,135 @@
+
+{
+	"Category" : "TubeTK",
+	"Contributor" : "Stephen R. Aylward (Kitware)",
+	"Description" : "Applies a transform or displacement field to tubes (i.e., spatial objects).",
+	"DocumentationURL" : "http://public.kitware.com/Wiki/TubeTK",
+	"License" : "Apache 2.0",
+	"ParameterGroups" : 
+	[
+		
+		{
+			"Description" : "Input/output parameters.",
+			"Label" : "IO",
+			"Parameters" : 
+			[
+				
+				{
+					"CPPType" : "std::string",
+					"Channel" : "",
+					"CoordinateSystem" : "",
+					"Default" : "",
+					"Description" : "Input tubes.",
+					"Flag" : "",
+					"Index" : "",
+					"Label" : "Input Tube File",
+					"LongFlag" : "",
+					"Maximum" : "",
+					"Minimum" : "",
+					"Multiple" : "false",
+					"Name" : "inputTubeFile",
+					"Step" : "",
+					"Tag" : "file",
+					"Value" : "./Data/Input/Stephen/AlmostMaxInhale01/vessels.tre"
+				},
+				
+				{
+					"CPPType" : "std::string",
+					"Channel" : "",
+					"CoordinateSystem" : "",
+					"Default" : "",
+					"Description" : "Transform to apply (in ITK format). When a displacement field is specified, any additional transforms are currently ignored.",
+					"Flag" : "",
+					"Index" : "",
+					"Label" : "",
+					"LongFlag" : "transformFile",
+					"Maximum" : "",
+					"Minimum" : "",
+					"Multiple" : "false",
+					"Name" : "transformFile",
+					"Step" : "",
+					"Tag" : "string",
+					"Value" : "./Data/Input/Stephen/AlmostMaxInhale01/VesselInitial.tfm"
+				},
+				
+				{
+					"CPPType" : "std::string",
+					"Channel" : "",
+					"CoordinateSystem" : "",
+					"Default" : "",
+					"Description" : "Output tubes.",
+					"Flag" : "",
+					"Index" : "",
+					"Label" : "Output Tube File",
+					"LongFlag" : "",
+					"Maximum" : "",
+					"Minimum" : "",
+					"Multiple" : "false",
+					"Name" : "outputTubeFile",
+					"Step" : "",
+					"Tag" : "file",
+					"Value" : "./Data/Input/Stephen/AlmostMaxInhale01/vessels-aligned.tre"
+				},
+				
+				{
+					"CPPType" : "std::string",
+					"Channel" : "",
+					"CoordinateSystem" : "",
+					"Default" : "",
+					"Description" : "Specify the displacement field (e.g., generated using ANTS).",
+					"Flag" : "",
+					"Index" : "",
+					"Label" : "Displacement Field",
+					"LongFlag" : "displacementField",
+					"Maximum" : "",
+					"Minimum" : "",
+					"Multiple" : "false",
+					"Name" : "displacementField",
+					"Step" : "",
+					"Tag" : "string",
+					"Value" : ""
+				},
+				
+				{
+					"CPPType" : "double",
+					"Channel" : "",
+					"CoordinateSystem" : "",
+					"Default" : "1.0",
+					"Description" : "When --transformFile is specified, additional isotropic scaling can also be applied.",
+					"Flag" : "",
+					"Index" : "",
+					"Label" : "Isotropic Scaling",
+					"LongFlag" : "scale",
+					"Maximum" : "",
+					"Minimum" : "",
+					"Multiple" : "false",
+					"Name" : "scale",
+					"Step" : "",
+					"Tag" : "double",
+					"Value" : 0.3859620
+				},
+				
+				{
+					"CPPType" : "bool",
+					"Channel" : "",
+					"CoordinateSystem" : "",
+					"Default" : "false",
+					"Description" : "Instead of using the transform directly, compute its inverse and apply. For a displacement field, the user is responsible for inputting the inverse displacement field.",
+					"Flag" : "",
+					"Index" : "",
+					"Label" : "Use the Inverse of the Loaded Transform",
+					"LongFlag" : "useInverseTransform",
+					"Maximum" : "",
+					"Minimum" : "",
+					"Multiple" : "false",
+					"Name" : "useInverseTransform",
+					"Step" : "",
+					"Tag" : "boolean",
+					"Value" : false
+				}
+			]
+		}
+	],
+	"Title" : "Spatially Transform Tubes (TubeTK)",
+	"Version" : "0.1.0.$Revision: 2104 $(alpha)"
+}
