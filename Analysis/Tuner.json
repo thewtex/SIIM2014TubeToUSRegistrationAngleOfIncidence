@@ -114,7 +114,7 @@
           "Name" : "gaussianBlurStdDev",
           "Step" : "",
           "Tag" : "double",
-          "Value" : 1.4
+          "Value" : 1.0
         }
       ]
     }
@@ -143,6 +143,15 @@
     "Debug" : false,
     "Sampling" : 30
   },
+
+  "UltrasoundProbeGeometryCalculator" :
+  {
+  "BackgroundValue" : 0.0,
+  "Debug" : false,
+  "GeneralBeamDirection" : 1
+  },
+
+  "UltrasoundProbeGeometryFile" : "/home/matt/docs/SIIM2014TubeToUSRegistrationAngleOfIncidence/Data/Output/AlmostMaxInhale01.ProbeGeometry.txt",
 
   "Visualization" :
   {
