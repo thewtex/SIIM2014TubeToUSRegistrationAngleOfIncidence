@@ -153,15 +153,26 @@
 
   "UltrasoundProbeGeometryFile" : "/home/matt/docs/SIIM2014TubeToUSRegistrationAngleOfIncidence/Data/Output/AlmostMaxInhale01.ProbeGeometry.txt",
 
+  "AngleOfIncidenceWeightFunction" :
+  {
+  "AngleDependence" : 1.0,
+  "Debug" : false,
+  "FractionalImportance" : 0.50,
+  "UltrasoundProbeOrigin" : [ 352.586, -213.051, 185.59 ]
+  },
+
+  "TubePointWeightsFile" : "/home/matt/docs/SIIM2014TubeToUSRegistrationAngleOfIncidence/Data/Output/AlmostMaxInhale01.TubePointWeights.json",
+
   "Visualization" :
   {
     "ImageTubes" :
     {
       "CameraPosition" :
       {
-        "distance" : 77.3,
-        "elevation" : -73,
-        "azimuth" : -806
+        "distance" : 70.8,
+        "elevation" : -68,
+        "azimuth" : -808,
+        "center": [ 348.5, -216.3, 0.0 ]
       }
     }
   }
