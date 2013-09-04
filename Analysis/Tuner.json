@@ -49,7 +49,7 @@
           "Name" : "inputVessel",
           "Step" : "",
           "Tag" : "file",
-          "Value" : "/home/matt/docs/SIIM2014TubeToUSRegistrationAngleOfIncidence/Data/Input/Stephen/AlmostMaxInhale01/vessels-aligned-trimmed.tre"
+          "Value" : "/home/matt/docs/SIIM2014TubeToUSRegistrationAngleOfIncidence/Data/Input/Stephen/AlmostMaxInhale01/vessels-aligned-trimmed-new.tre"
         },
 
         {
@@ -135,7 +135,7 @@
     "InitialPosition" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
     "LearningRate" : 0.10,
     "Maximize" : false,
-    "NumberOfIterations" : 30,
+    "NumberOfIterations" : 15,
     "Scales" : [ 30.0, 30.0, 30.0, 1.0, 1.0, 1.0 ]
   },
 
