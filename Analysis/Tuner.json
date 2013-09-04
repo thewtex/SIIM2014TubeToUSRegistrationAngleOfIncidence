@@ -156,9 +156,9 @@
 
   "AngleOfIncidenceWeightFunction" :
   {
-  "AngleDependence" : 1.0,
+  "AngleDependence" : 1.5,
   "Debug" : false,
-  "FractionalImportance" : 0.50,
+  "FractionalImportance" : 0.80,
   "UltrasoundProbeOrigin" : [ 352.586, -213.051, 185.59 ]
   },
 
