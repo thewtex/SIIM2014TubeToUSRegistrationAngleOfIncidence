@@ -133,7 +133,7 @@
     "Debug" : true,
     "InitialPosition" : [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ],
     "LearningRate" : 0.10,
-    "Maximize" : true,
+    "Maximize" : false,
     "NumberOfIterations" : 30,
     "Scales" : [ 30.0, 30.0, 30.0, 1.0, 1.0, 1.0 ]
   },
