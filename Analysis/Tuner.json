@@ -57,18 +57,19 @@
           "Channel" : "output",
           "CoordinateSystem" : "",
           "Default" : "",
-          "Description" : "Binary image demonstrating where the tube is located after it has been registered.",
+          "Description" : "Transform that aligns the input vessels and input image.",
           "Flag" : "",
           "Index" : "2",
-          "Label" : "Output Volume",
+          "Label" : "Output Transform",
           "LongFlag" : "",
           "Maximum" : "",
           "Minimum" : "",
           "Multiple" : "false",
-          "Name" : "outputVolume",
+          "Name" : "outputTransform",
           "Step" : "",
-          "Tag" : "image",
-          "Value" : "/home/matt/docs/SIIM2014TubeToUSRegistrationAngleOfIncidence/Data/Output/AlmostMaxInhale01.Registered.mha"
+          "Tag" : "file",
+          "Value" :
+          "/home/matt/docs/SIIM2014TubeToUSRegistrationAngleOfIncidence/Data/Output/AlmostMaxInhale01.Transform.h5"
         },
 
         {
