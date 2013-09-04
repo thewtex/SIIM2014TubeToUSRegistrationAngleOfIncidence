@@ -30,7 +30,7 @@
           "Name" : "inputVolume",
           "Step" : "",
           "Tag" : "image",
-          "Value" : "/home/matt/docs/SIIM2014TubeToUSRegistrationAngleOfIncidence/Data/Input/Stephen/AlmostMaxInhale01/AlmostMaxInhale01.proc.mha"
+          "Value" : "/home/matt/docs/SIIM2014TubeToUSRegistrationAngleOfIncidence/Data/Output/AlmostMaxInhale01.proc.preblur.mha"
         },
 
         {
@@ -115,7 +115,7 @@
           "Name" : "gaussianBlurStdDev",
           "Step" : "",
           "Tag" : "double",
-          "Value" : 1.0
+          "Value" : 0.0
         }
       ]
     }
