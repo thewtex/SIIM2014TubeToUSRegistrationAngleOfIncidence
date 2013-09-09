@@ -13,10 +13,12 @@ input_tubes_file = './Data/Input/Stephen/AlmostMaxInhale01/vessels-aligned-trimm
 tmp_tubes_file = '/tmp/MonteCarlo.tre'
 
 angle_min_max = 0.1
-translation_min_max = 3.0
-n_experiments = 100
-iterations_space = [4, 8, 12]
-fractional_importance_space = [0.0, 0.5, 0.8]
+translation_min_max = 5.0
+n_experiments = 1000
+#iterations_space = [4, 8, 12]
+iterations_space = [8]
+#fractional_importance_space = [0.0, 0.5, 0.8]
+fractional_importance_space = [0.0, 0.8]
 
 import json
 import os

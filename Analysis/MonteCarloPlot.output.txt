@@ -1,0 +1,31 @@
+['alpha = 0.0, Iterations = 8.npy', 'alpha = 0.8, Iterations = 8.npy']
+
+
+angle error:
+
+alpha = 0.0, Iterations = 8:
+mean: 0.0078270370221
+std: 0.0109318701105
+
+alpha = 0.8, Iterations = 8:
+mean: 0.00672237229243
+std: 0.0100210728565
+
+
+T-test: (T-statistic, p-value)
+(array(2.3543622208058803), 0.018650826175502733)
+
+
+translation error:
+
+alpha = 0.0, Iterations = 8:
+mean: 0.301333534912
+std: 0.325062683043
+
+alpha = 0.8, Iterations = 8:
+mean: 0.269197715757
+std: 0.25391067172
+
+
+T-test: (T-statistic, p-value)
+(array(2.4624846301709407), 0.013881646170054791)
